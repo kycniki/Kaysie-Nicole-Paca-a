@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #F67280, #BB8082);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 92px 92px 48px 92px;
+            overflow: hidden;
+        }
+
+        .container {
+            background-color: #FEA5AD;
+            border-radius: 10px;
+        }
+
+        .header {
+            background-color: #ff96d7;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: -3px 6px 7px -4px rgba(0, 0, 0, 0.7);
+            -webkit-box-shadow: -3px 6px 7px -4px rgba(0, 0, 0, 0.7);
+            -moz-box-shadow: -3px 6px 7px -4px rgba(0, 0, 0, 0.7);
+            padding: 7.5px 25px 10px 25px;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .right div {
+            background-color: #7286d3;
+            margin-left: 10px;
+            padding: 0 10px 0 10px;
+            border-radius: 10px;
+        }
+
+        .right {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .info {
+            margin: 0 30px 0 30px;
+            align-items: center;
+            padding-bottom: 100px;
+            padding-top: 25px;
+            border-radius: 10px;
+            display: grid;
+            justify-content: center;
+            text-align: center;
+            justify-items: center;
+        }
+
+        .right a button {
+            background-color: rgba(208, 114, 211, 0.9);
+            border-radius: 10px;
+            border: none;
+            color: white;
+            margin-left: 10px;
+            padding: 5px 10px;
+        }
+
+        .right a button:hover {
+            cursor: pointer;
+            background-color: rgba(208, 114, 211, 0.5);
+        }
+
+        .info img {
+            width: 200px;
+        }
+
+        .left img {
+            width: 30px;
+            margin-right: 10px;
+        }
+
+        .left {
+            display: flex;
+            align-items: center;
+        }
+        
+        @media (max-width: 500px) {
+            body{
+                margin: 20px 20px 40px 20px;
+            }
+            
+            .info *{
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="left">
+                <img src="1680515786132-modified.png" alt="My Cartoon Picture">
+                <span>Kaysie Nicole F. Pacaña</span>
+            </div>
+            <div class="right">
+                <a href="contacts.html">
+                    <button>Contacts</button>
+                </a>
+                <a href="about.html"><button>About</button></a>
+            </div>
+        </div>
+        <div class="info">
+            <img src="1680515786132-modified.png" alt="My Cartoon Picture">
+            <h1>Welcome to my Portfolio</h1>
+            <p>Here, you can explore my portfolio which contain information about me. You can navigate the pages on the
+                top right of this container.</p>
+        </div>
+    </div>
+</body>
+
+</html>

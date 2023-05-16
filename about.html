@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #F67280, #BB8082);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 92px 92px 48px 92px;
+            overflow: hidden;
+        }
+
+        .container {
+            background-color: #FEA5AD;
+            border-radius: 10px;
+            max-width: fit-content;
+        }
+
+        .header {
+            background-color: #ff96d7;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: -3px 6px 7px -4px rgba(0, 0, 0, 0.7);
+            -webkit-box-shadow: -3px 6px 7px -4px rgba(0, 0, 0, 0.7);
+            -moz-box-shadow: -3px 6px 7px -4px rgba(0, 0, 0, 0.7);
+            padding: 7.5px 25px 10px 25px;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .right div {
+            background-color: #7286d3;
+            margin-left: 10px;
+            padding: 0 10px 0 10px;
+            border-radius: 10px;
+        }
+
+        .right {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .info {
+            display: flex;
+            text-align: center;
+            justify-content: space-between;
+            margin: 0 30px 0 30px;
+            align-items: center;
+            padding-bottom: 130px;
+            padding-top: 25px;
+            border-radius: 10px;
+        }
+
+        .col2 {
+            margin-left: 50px;
+        }
+
+        .col2 h4 {
+            margin-top: -15px;
+        }
+
+        .col2 p,
+        .col2 ul {
+            font-size: 13px;
+            text-align: justify;
+        }
+
+        .col1 {
+            margin-left: 25px;
+        }
+
+        .right a button {
+            background-color: rgba(208, 114, 211, 0.9);
+            border-radius: 10px;
+            border: none;
+            color: white;
+            margin-left: 10px;
+            padding: 5px 10px;
+        }
+
+        .right a button:hover {
+            cursor: pointer;
+            background-color: rgba(208, 114, 211, 0.5);
+        }
+
+        .col1 img {
+            width: 200px;
+        }
+
+        .left img {
+            width: 30px;
+            margin-right: 10px;
+        }
+
+        .left {
+            display: flex;
+            align-items: center;
+        }
+
+        @media (max-width: 900px) {
+            body {
+                overflow: scroll;
+                overflow-x: hidden;
+            }
+
+            .info {
+                display: flex;
+                align-items: normal;
+            }
+
+            .col1 {
+                margin-top: 20px;
+            }
+        }
+  @media (max-width: 500px) {
+            body{
+                margin: 20px 20px 40px 20px;
+            }
+            
+            .info *{
+                font-size: 13px;
+            }
+            
+            .col1 img{
+                width: 100px;
+            }
+            
+            .info{
+                display: grid;
+            }
+            
+            .info div{
+                margin: 10px 10px 0 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="left">
+                <img src="1680515786132-modified.png" alt="My Cartoon Picture">
+                <span>Kaysie Nicole F. Pacaña</span>
+            </div>
+            <div class="right">
+                <a href="index.html"><button>Back</button></a>
+            </div>
+        </div>
+        <div class="info">
+            <div class="col1">
+                <img src="1680515786132-modified.png" alt="My Cartoon Picture">
+            </div>
+            <div class="col2">
+                <h3>Hi There! I'm Kaysie Nicole F. Pacaña</h3>
+                <h4>Good at Web Designing</h4>
+                <p>I'm glad to see you here in my portfolio. Before you start exploring, allow me to introduce myself. I'm Kaysie  Nicole F. Pacaña is good at web design. I'm 17, and I'll be 18 on November 3. I live in Cangmating, Sibulan, Negros Oriental. I like to code other websites in a similar way when I have nothing better to do, such as Google search. I am still learning JavaScript, and I'm having a hard time understanding because Java and JavaScript are different. If I had to choose my favorite programming language, I would choose HTML because it's easy to understand and fun to code.
+                </p>
+                <p>My hobbies in my life are:</p>
+                <ul>
+                    <li>Dancing</li>
+                    <li>Watching K-Dramas</li>
+                    <li>Singing/Rapping</li>
+                </ul>
+                <p>I will be happy when you apply for me and I would love to be with you and other colleagues. And thank
+                    you so much for being here, looking at my portfolio. It's okay if I'm not that guy to be with you. I
+                    hope you will have a better person someday. </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
